@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	box-sizing: border-box;
+	
+}
+.reg{
+	height:500px;
+	width:600px;
+	margin: 50px auto;
+	border-bottom: 6px solid #d9f9fb;
+    border-bottom-style: solid #d9f9fb;
+	border-radius: 10px; 
+	    overflow:hidden;	
+	    	    background-color: #f5f5f5;
+     background-image: url("coach-3206326_960_720.webp");
+	    
+}
+.regh{
+	height: 40px;
+	width: 100%;
+   padding: 10px 22px ;
+   background-color: #d9f9fb;
+	
+}
+.formin{
+	height: 50px;
+	width: 100%;
+    padding: 18px 22px ;
+    background-color: #f5f5f5
+    
+}
+.formin input {
+	height: 30px;
+	width: 70%;
+	font-size: 15px;
+	display: block;
+	border: 2px solid #f0f0f0;
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+form input:focus{
+outline: none;
+border-color: #c0c0c0;
+}
+.formx{
+	    padding: 14px 30px ;
+	    background-color: #f5f5f5
+	
+	}
+
+.sub{
+	    padding: 10px 82px ;
+	
+	}
+.sub button{
+	height: 40px;
+	width: 100%;
+	background-color:blue;
+	color:white;
+}
+.sub button:hover{
+	height: 40px;
+	width: 100%;
+	background-color:green;
+	color:white;
+}
+
+.reg .success p{
+text-align: center;
+color: green;
+	}
+.reg .fail{
+	text-align: center;
+	color: red;
+}
+.regie{
+	text-align: center;
+	margin-left:  270px;
+}
+.regie a:visited{
+		color: blue;
+		background-color: gray;
+	}
+.regie a:hover {
+	color: green;
+	    font-weight: bolder;
+}

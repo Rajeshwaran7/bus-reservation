@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.form1{
+	height:450px;
+	width:380px;
+	border: 1px solid blue;
+	margin: 60px auto;
+	border-left-style: outset;
+	border-radius: 8px;
+}
+.formdiv{
+	
+margin-bottom: 5px;
+padding-bottom: 4px;
+position: relative;
+}
+.formdiv label {
+	
+display: inline-block;
+margin-bottom: 5px;
+}
+form{
+	
+    padding: 30px 40px;	
+}
+form input{
+border: 2px solid #f0f0f0;
+border-radius: 5px;
+display: block;
+font-size: 14px;
+padding: 7px;
+width: 100%;
+}
+form input:focus{
+outline: none;
+border-color: #c0c0c0;
+}
+.btn button{
+    background-color: #400080;
+    border: none;
+    color: #ffff;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn button:hover{
+    background-color: #039e00;
+    border: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: #777;
+    
+}
+.regie {
+	text-align: center;
+	padding-left:  60px;
+}
+.regie a:visited{
+		color: blue;
+		background-color: gray;
+	}
+.regie a:hover {
+	color: green;
+	    font-weight: bolder;
+}

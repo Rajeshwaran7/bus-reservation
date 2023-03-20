@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*{
+		margin-top: 0%;
+	    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+
+.Regi{
+
+    height: 500px;
+    width: 400px;
+    margin: 100px auto;
+    display: block;
+    max-width: 100%;
+    width: 400px;
+    background-color: white;
+    box-shadow: 10px 20px 25px rgb(0, 0, 0,1);
+    border-radius: 14px;
+    color: black;
+    border: 2px solid #0a0adb;
+   }
+   h3{
+       height:38px;
+       text-align: center;
+   }
+   .Regi .form lable{
+       margin-left: 100px;
+       padding-left: 100px
+   }
+   .bd{	
+       
+   font-family: sans-serif;
+   justify-content: center;
+   height: 600px;
+   margin-bottom: 200px;
+   }
+   
+.form{
+	
+    padding: 30px 40px;	
+}
+.form2{
+margin-bottom: 5px;
+padding-bottom: 4px;
+position: relative;
+}
+.form2 lable{
+display: inline-block;
+margin-bottom: 5px;
+
+}
+.form2 input{
+border: 2px solid #f0f0f0;
+border-radius: 5px;
+display: block;
+font-size: 14px;
+padding: 10px;
+width: 100%;
+}
+
+.form2 input:focus{
+outline: none;
+border-color: #777;
+}
+.search{
+    padding-top: 10px;
+}
+#place option{
+    font-size: 20px;
+}
+
+.btn button{
+    background-color: #400080;
+    border: none;
+    color: #ffff;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn button:hover{
+    background-color: #039e00;
+    border: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: #777;
+    
+}
+.login{
+text-align: center;
+text-decoration:none;
+margin-bottom: 10px;
+}
+.login:hover{
+	font-weight:bolder; 
+}
